@@ -1,0 +1,4 @@
+Sitemap: https://jsappl.github.io/pinns/sitemap.xml
+
+User-agent: *
+Disallow:
