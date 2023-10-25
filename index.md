@@ -18,3 +18,4 @@ We will delve into the crucial components of PINNs, including their architecture
 - \biblabel{raissi2017aphysics}{Raissi et al. (2017)} **Raissi**, **Perdikaris** and **Karniadakis**, Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations, 2017.
 - \biblabel{raissi2017bphysics}{Raissi et al. (2017)} **Raissi**, **Perdikaris** and **Karniadakis**, Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations, 2017.
 - \biblabel{raissi2019physics}{Raissi et al. (2019)} **Raissi**, **Perdikaris** and **Karniadakis**, Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations, 2019.
+- \biblabel{ray2023lecture}{Ray et al. (2023)} **Ray**, **Pinti** and **Oberai**, Deep Learning and Computational Physics (Lecture Notes), 2023.
