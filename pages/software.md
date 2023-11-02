@@ -1,9 +1,9 @@
 +++
-title = "Overview"
+title = "Software"
 hascode = false
 +++
 
-# Overview
+# Software
 
 In both, Python and Julia, multiple options for implementing physics-informed neural networks are available. The choice depends on the specific requirements you have and how familiar you are with the programming language and libraries. Python is more mature and widely used, while Julia offers high-performance computing and convenient mathematical notation for scientific computing. Click on the links below to learn more about each of the following libraries.
 
