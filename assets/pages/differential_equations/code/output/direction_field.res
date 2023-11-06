@@ -1,0 +1,1 @@
+"/home/runner/work/pinns/pinns/__site/assets/pages/differential_equations/code/output/direction_field.png"
