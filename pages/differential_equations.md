@@ -44,7 +44,14 @@ DEs can be classified according to type, order, and linearity.
 F(x,y,y',\ldots,y^{(n)}) = 0\,,
 \]
 
-where $F$ is a real-valued function of $n+2$ variables.
+where $F$ is a real-valued function of $n+2$ variables. Note, that without loss of generality to higher-order systems, we can restrict ourselves to first-order DEs. That is because any higher-order ODE can be inflated into a larger system of first-order equations by introducing new variables. For example, the second-order equation $y'' = -y$ can be rewritten as a system of two first-order equations
+
+\begin{equation*}
+\begin{aligned}
+y' &= z\,, \\
+z' &= -y\,.
+\end{aligned}
+\end{equation*}
 
 **Linearity:** An $n$-th-order ODE \eqref{eq:general_form} is said to be linear if $F$ is linear in $y,y',\ldots,y^{(n)}$. A nonlinear ordinary differential equation is simply one that is not linear. Nonlinear
 functions of the dependent variable or its derivatives, such as $\sin y$ or $\e^{y'}$, cannot appear in a linear equation.
