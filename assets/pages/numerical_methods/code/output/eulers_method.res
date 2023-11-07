@@ -1,0 +1,1 @@
+"/home/runner/work/pinns/pinns/__site/assets/pages/numerical_methods/code/output/eulers_method.png"
