@@ -1,5 +1,7 @@
 [deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 DiffEqFlux = "aae7a2af-3d4f-5e19-a356-7da93b79d9d0"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Franklin = "713c75ef-9fc9-4b05-94a9-213340da978e"
 NeuralPDE = "315f7962-48a3-4962-8226-d0f33b1235f0"
 NodeJS = "2bd173c7-0d6d-553b-b6af-13a54713934c"
