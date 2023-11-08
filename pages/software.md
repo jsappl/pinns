@@ -13,7 +13,7 @@ In both, Python and Julia, multiple options for implementing physics-informed ne
    A library for scientific machine learning and physics-informed learning.
 
 1. **[IDRLnet](https://idrlnet.readthedocs.io/en/latest/)**:
-   A machine learning library on top of PyTorch. Use IDRLnet if you need a machine learning library that solves both forward and inverse differential equations via physics-informed neural networks. IDRLnet is a flexible framework inspired by Nvidia Simnet.
+   A machine learning library on top of PyTorch. Use IDRLnet if you need a machine learning library that solves both forward and inverse differential equations via physics-informed neural networks. IDRLnet is a flexible framework inspired by NVIDIA SimNet™.
 
 1. **[maziarraissi/PINNs](https://github.com/maziarraissi/PINNs)**:
     The original implementation by the authors of the papers written in TensorFlow.
