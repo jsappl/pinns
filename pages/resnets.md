@@ -198,7 +198,7 @@ function trueODEfunc(du, u, p, t)
     du .= ((u.^3)'true_A)'
 end
 t = range(tspan[1], tspan[2], length=n_samples)
-prob = ODEProblem(trueODEfunc, u0, tspan)
+prob = DiffEqFlux.ODEProblem(trueODEfunc, u0, tspan)
 ode_data = Array(solve(prob, Tsit5(), saveat=t))
 
 model = Chain(
