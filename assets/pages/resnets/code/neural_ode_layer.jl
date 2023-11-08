@@ -1,4 +1,5 @@
 # This file was generated, do not modify it. # hide
+using OrdinaryDiffEq
 using DiffEqFlux, PlotlyJS
 
 u0 = Float32[2.; 0.]
