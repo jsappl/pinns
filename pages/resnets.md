@@ -187,6 +187,7 @@ The original equations are unknown to the neural network. The data set only cons
 
 
 ```julia:neural_ode_layer
+using OrdinaryDiffEq
 using DiffEqFlux, PlotlyJS
 
 u0 = Float32[2.; 0.]
