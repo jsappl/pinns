@@ -3,7 +3,7 @@ title = "Physics-Informed Neural Networks"
 hasmath = false
 +++
 
-# Physics-Informed Neural Networks
+# Home :house:
 
 In the constantly changing landscape of scientific research and computational methods, physics-informed neural networks, or PINNs for short, represent a fusion of physics-based modeling and machine learning techniques. These lecture notes will serve as a gateway to understanding the fundamental principles, applications, and potential of this interdisciplinary field.
 
