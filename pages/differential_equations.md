@@ -360,7 +360,44 @@ fdplotly(json(plt))  # hide
 
 Model the spread of a contagious disease using the compartmental [SIR model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) from epidemiology. See also `notebooks/contagious_disease.jl`.
 
+## Partial Differential Equations
+
+An ODE describes the relation between an unknown function depending on a single variable and its derivatives. A partial differential equation (PDE) describes a relation between an unknown function and its partial derivatives. PDEs appear frequently in all areas of physics and engineering. Moreover, in recent years we have seen a dramatic increase in the use of PDEs in areas such as biology, chemistry, computer sciences (particularly in relation to image processing and graphics) and in economics (finance). In fact, in each area where there is an interaction between a number of independent variables, we attempt to define functions in these variables and to model a variety of processes by constructing equations for these functions. When the value of the unknown function(s) at a certain point depends only on what happens in the vicinity of this point, we shall, in general, obtain a PDE. The general form of a PDE for a function $u(x_1, x_2, \ldots, x_n)$ is given by
+
+\begin{equation}\label{eq:general_pde}
+F(x_1, x_2, \ldots, x_n, u, u_{x_1}, u_{x_2}, \ldots, u_{x_{11}}, \ldots) = 0\,,
+\end{equation}
+
+where $x_1, x_2, \ldots, x_n$ are the independent variables, $u$ is the unknown function, and $u_{x_j}$ denotes the partial derivative $\partial u / \partial x_j$. Also partial derivatives of higher order like $\partial u / \partial x_{jk}$ are possible. The equation is, in general, supplemented by additional conditions such as initial conditions, as we have already seen in the theory of ODEs, or boundary conditions.
+
+### Classification
+
+Similar to ODEs we can classify PDEs into different categories.
+
+**Order:** The order is defined to be the order of the highest derivative in the equation. If the highest derivative is of order $k$, then the PDE is said to be of order $k$. Thus, for example, the equation $u_{tt} - u_{xx} = f(x,t)$ is called a second-order equation, while $u_t + u_{xxx} = 0$ is called a third-order equation.
+
+**Linearity:** A PDE is called linear if in \eqref{eq:general_pde}, $F$ is a linear function of the unknown function $u$ and all of its derivatives. For example, $x^7u_x + \e^{xy}u_y + \sin(x^2 + y^2)u= x^3$ is a linear equation while $u_x^2 + u_y^2=1$ is a nonlinear equation.
+
+**Scalar versus system**: A single PDE with just one unknown function is called a scalar equation. In contrast, a set of $m$ equations with $\ell$ unknown functions is called a system of $m$ equations.
+
+### Example: Poissons's Equation
+
+Poissons's equation is a second-order PDE frequently used in theoretical physics. Given the Laplace operator in $n$-dimensional space
+
+\begin{equation*}
+\Delta = \sum_{j=1}^n \frac{\partial^2}{\partial x_j^2}
+\end{equation*}
+
+it is defined by
+
+\begin{equation*}
+\Delta \phi = f\,,
+\end{equation*}
+
+where the initial condition $f$ is given and $\phi$ is the unknown solution.
+
 ## References
 
 - \biblabel{zill2018differential}{Zill (2018)} **Dennis G. Zill**, A First Course in Differential Equations with Modeling Applications, 2018.
 - \biblabel{frost2018sir}{Frost (2018)} **Simon Frost**, SIR model in Julia using DifferentialEquations, 2018, <http://epirecip.es/epicookbook/chapters/sir/julia>.
+- \biblabel{pinchover2005partial}{Pinchover et al. (2005)} **Pinchover** and **Rubinstein**, An Introduction to Partial Differential Equations, 2005.
