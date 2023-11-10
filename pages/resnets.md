@@ -232,6 +232,10 @@ fdplotly(json(plt))  # hide
 
 We are not learning a solution to the original ODE. Instead, we are learning the tiny ODE system from which the ODE solution is generated. The neural network inside the neural ODE layer learns the function $u' = Au^3$. Thus, it learned a compact representation of how the time series behaves, and it can easily extrapolate to what would happen with different initial conditions. It is also a very flexible method for learning such representations if your data is unevenly spaced. Just pass in the desired time steps and the ODE solver takes care of it.
 
+## Exercise
+
+Model the dynamics of the [Lotka-Volterra system](/pages/differential_equations/#example_lotka-volterra_model) using a neural ODE. Refer to the Julia code [above](/pages/resnets/#example_test_equation) for help. See also `notebooks/neural_ode.jl`.
+
 ## References
 
 - \biblabel{ray2023lecture}{Ray et al. (2023)} **Ray**, **Pinti** and **Oberai**, Deep Learning and Computational Physics (Lecture Notes), 2023, <https://arxiv.org/pdf/2301.00942.pdf>.
