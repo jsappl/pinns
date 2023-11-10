@@ -380,9 +380,9 @@ Similar to ODEs we can classify PDEs into different categories.
 
 **Scalar versus system**: A single PDE with just one unknown function is called a scalar equation. In contrast, a set of $m$ equations with $\ell$ unknown functions is called a system of $m$ equations.
 
-### Example: Poissons's Equation
+### Example: Poisson's Equation
 
-Poissons's equation is a second-order PDE frequently used in theoretical physics. Given the Laplace operator in $n$-dimensional space
+Poisson's equation is a second-order PDE frequently used in theoretical physics. Given the Laplace operator in $n$-dimensional space
 
 \begin{equation*}
 \Delta = \sum_{j=1}^n \frac{\partial^2}{\partial x_j^2}
