@@ -1,0 +1,1 @@
+"/home/runner/work/pinns/pinns/__site/assets/pages/pinns/code/output/plot_pinn.png"
