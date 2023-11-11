@@ -2,7 +2,7 @@
 
 julia_version = "1.9.3"
 manifest_format = "2.0"
-project_hash = "9d072ca622100ee880048170975e72f1c61e5d8c"
+project_hash = "cac7318a3426650f50a19f9a7456c7529575f691"
 
 [[deps.ADTypes]]
 git-tree-sha1 = "5d2e21d7b0d8c22f67483ef95ebdc39c0e6b6003"
@@ -1464,9 +1464,9 @@ weakdeps = ["ChainRulesCore", "ForwardDiff", "SpecialFunctions"]
 
 [[deps.Lux]]
 deps = ["ADTypes", "Adapt", "ChainRulesCore", "ConcreteStructs", "Functors", "LinearAlgebra", "LuxCore", "LuxDeviceUtils", "LuxLib", "MacroTools", "Markdown", "Optimisers", "PackageExtensionCompat", "Random", "Reexport", "Setfield", "SparseArrays", "Statistics", "TruncatedStacktraces", "WeightInitializers"]
-git-tree-sha1 = "df839386a7abdc82ae0799be793ea9e038eb6da0"
+git-tree-sha1 = "a8e84d2dec289f03ca054be3814de50f2312f0e1"
 uuid = "b2108857-7c20-44ae-9111-449ecde12c47"
-version = "0.5.9"
+version = "0.5.10"
 
     [deps.Lux.extensions]
     LuxChainRulesExt = "ChainRules"
@@ -1831,6 +1831,12 @@ weakdeps = ["Enzyme", "FiniteDiff", "ForwardDiff", "ModelingToolkit", "ReverseDi
     OptimizationSparseDiffExt = ["SparseDiffTools", "Symbolics", "ReverseDiff"]
     OptimizationTrackerExt = "Tracker"
     OptimizationZygoteExt = "Zygote"
+
+[[deps.OptimizationOptimJL]]
+deps = ["Optim", "Optimization", "Reexport", "SparseArrays"]
+git-tree-sha1 = "fedb7064e737aefef3382f8bef3a4e464c7cb8eb"
+uuid = "36348300-93cb-4f02-beb5-3c3902f8871e"
+version = "0.1.13"
 
 [[deps.Opus_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
